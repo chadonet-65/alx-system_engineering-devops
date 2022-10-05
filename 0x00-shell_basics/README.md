@@ -3,4 +3,5 @@
 3-script that chang diretory personal
 4-display content directory in format long
 5-content hidden
-6-display content directory by ID group 
+6-display content directory by ID group
+7-script that create directory 
