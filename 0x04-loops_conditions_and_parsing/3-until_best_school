@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script that print 10 lines
+i=0
+until [ "$i" -gt 10 ]
+do
+  echo "Best School"
+  ((i++))
+done
+i=$i
