@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# script that print 10 lines best school
+i=0
+for i in {1..10}
+do
+    echo "Best School"
+done
+i=$i 
