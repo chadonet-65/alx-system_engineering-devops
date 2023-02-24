@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Displays 10 lines and then Hi
 i=0
-while [ "$i" -lt 10]
+while [ "$i" -lt 10 ]
 do
    echo "Best School"
-   if [[ "$i" -eq 9 ]
+   if [ "$i" -eq 9 ]
    then
       echo "Hi"
    fi
