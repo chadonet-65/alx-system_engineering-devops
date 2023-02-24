@@ -1,0 +1,9 @@
+#!usr/bin/env bash
+# script that display 10 lines
+i=10
+while [ "$i" -gt 0]
+do
+   echo "Best School"
+   i=$((i-1))
+done
+i=$i
