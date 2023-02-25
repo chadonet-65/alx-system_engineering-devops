@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #script tht gives information
 file_s="school"
+
 if [ -e "$file_s" ]
 then
 
