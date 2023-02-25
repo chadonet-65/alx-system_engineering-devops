@@ -3,6 +3,7 @@
 file_s="school"
 if [ -e "$file_s" ]
 then
+
   echo "school file exist"
   if [ -s "$file_s" ]
   then
@@ -10,6 +11,7 @@ then
   else
     echo "school file is  empty"
   fi
+  
   if [ -f "$file_s" ]
   then
     echo "school is a regular file"
