@@ -1,27 +1,27 @@
 #!/usr/bin/env bash
 # This script is display
-sudo touch /var/run/holbertonscript.pid
-sudo bash -c "echo $$ > /var/run/holbertonscript.pid"
+sudo touch /var/run/myscript.pid
+sudo bash -c "echo $$ > /var/run/myscript.pid"
 
-trap inter2 SIGINT
-trap inter1 SIGTERM
-trap inter3 SIGQUIT
+trap interrup2 SIGINT
+trap interrup SIGTERM
+trap interrup SIGQUIT
 
-inter3()
+interrup()
 {
-    sudo rm /var/run/holbertonscript.pid
+    sudo rm /var/run/myscript.pid
     exit $?
 }
 
-inter2()
+interrup()
 {
     echo "Y U no love me?!"
 }
 
-inter1()
+interrup()
 {
     echo "I hate the kill command"
-    sudo rm /var/run/holbertonscript.pid
+    sudo rm /var/run/myscript.pid
     exit $?
 }
 
